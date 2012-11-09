@@ -2,20 +2,38 @@
 
 Spanish Dictionary for quick searches via terminal written in python
 
-# Usage
+# Installation
+* * *
+First, you must install dependences.
 
----
+Install PIP
 
 ```bash
-$ python dict.py "word"
+$ sudo apt-get install python-pip
 ```
 
-# Dependencies
+Install Beautiful Soup
 
----
-python
+```bash
+$ sudo pip install beautifulsoup4
+```
 
-beautifulsoup4
+# How to use?
+* * *
 
+Simply open a terminal and type: 
+
+```bash
+$ cd /wherever you have Dictionary.py
+$ python dict.py word
+```
+
+"Word" is the word you want to search 
+
+And that's it!
+
+[Licence] (http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es)
+
+© Adrian Obelmejias, Stefan Maric & Roger Gonzalez . 2012
 
 
