@@ -15,8 +15,10 @@ soup = BeautifulSoup(data)
 
 word_body = soup.find_all('div', class_ = "runseg")
 
-
 print word_to_find, "\n\n"
 
-for text in word_body:
-  print text.get_text()
+if word_body:
+  for text in word_body:
+    print text.get_text()
+else:
+  print "Word not found"
