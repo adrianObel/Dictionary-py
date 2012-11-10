@@ -34,6 +34,10 @@ And that's it!
 
 [Licence] (http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es)
 
+#Special Thanks to:
+
+[The Free Dictionary] (http://es.thefreedictionary.com/)
+
 © Adrian Obelmejias, Stefan Maric & Roger Gonzalez . 2012
 
 
