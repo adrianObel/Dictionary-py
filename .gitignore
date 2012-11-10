@@ -1,0 +1,4 @@
+*.pyc
+Dictionary_py.egg-info
+build
+dist
