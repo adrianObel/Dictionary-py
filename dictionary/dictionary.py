@@ -12,7 +12,11 @@ if lang == 'spanish' or lang == 'espanol':
 elif lang == 'english' or lang =='ingles':
   url = 'http://thefreedictionary.com/%s' %  word_to_find
   search_for_class = 'ds-list'
-  
+
+elif lang == 'italian' or lang == 'italien':
+  url = 'http://it.thefreedictionary.com/%s' % word_to_find
+  search_for_class = 'runseg'
+
 else:
   print 'Language not supported'
   exit()
@@ -26,7 +30,7 @@ soup = BeautifulSoup(data)
 
 word_body = soup.find_all('div', class_ = search_for_class)
 
-print word_to_find, "\n\n"
+print '\n',word_to_find, '\n\n'
 
 if word_body:
   for text in word_body:
