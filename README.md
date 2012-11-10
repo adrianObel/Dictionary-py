@@ -1,20 +1,32 @@
 # Dictionary-Py
 
-Spanish Dictionary for quick searches via terminal written in python
+Dictionary for quick searches via terminal written in python
 
-## Usage
-
+## Installation
 ***
-
 ```bash
-$ python dict.py "word"
+$ git clone https://github.com/adrianObel/Dictionary-py
+$ cd Dictionary-py
+$ python setup.py install
 ```
 
-## Dependencies
-
+## How to use
 ***
-python
+```bash
+$ dictpy [language] [word]
+```
+## Languages soported
+***
+ * English
+ * Spanish
+ * Italian
 
-beautifulsoup4
+
+#Special Thanks to:
+
+[The Free Dictionary] (http://es.thefreedictionary.com/)
 
 
+© Adrian Obelmejias, Stefan Maric & Roger Gonzalez . 2012
+
+[Licence] (http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es)
