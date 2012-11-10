@@ -2,20 +2,19 @@
 
 Spanish Dictionary for quick searches via terminal written in python
 
-# Usage
+## Usage
 
----
+***
 
 ```bash
 $ python dict.py "word"
 ```
 
-# Dependencies
+## Dependencies
 
----
+***
 python
 
 beautifulsoup4
-
 
 
