@@ -1,0 +1,9 @@
+setup.py
+bin/dictpy
+dictionary/__init__.py
+dictionary/dictionary.py
+dictionary.egg-info/PKG-INFO
+dictionary.egg-info/SOURCES.txt
+dictionary.egg-info/dependency_links.txt
+dictionary.egg-info/requires.txt
+dictionary.egg-info/top_level.txt

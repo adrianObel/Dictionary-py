@@ -1,7 +1,11 @@
 #!/usr/bin/env python
-import os
 from sys import argv
+from dictionary import dictionary
 
-args = {}
 
-execfile('/usr/local/lib/python2.7/dist-packages/Dictionary_py-0.2-py2.7.egg/dictionary/dictionary.py', args)
+argv_count = len(argv)
+
+if not argv_count >= 3:
+  print 'Language or word missing'
+else:
+  dictionary.search_for((argv[1], argv[2]))

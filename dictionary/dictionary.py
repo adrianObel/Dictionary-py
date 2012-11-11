@@ -1,12 +1,11 @@
-from sys import argv, exit
+from sys import exit
 from bs4 import BeautifulSoup
 import urllib2
 
-if not len(argv) >= 3:
-  print 'Language or word missing'
-else:
-  script, lang, word_to_find = argv
+
   
+def search_for((lang, word_to_find)):
+
   if lang == 'spanish' or lang == 'espanol':
     url = 'http://es.thefreedictionary.com/%s' %  word_to_find
     search_for_class = 'runseg'
