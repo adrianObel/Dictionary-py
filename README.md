@@ -14,13 +14,13 @@ $ python setup.py install
 ## How to use
 
 ```bash
-$ dictpy [language] [word]
+$ pydict [language] [word]
 ```
 ## Languages soported
 
- * English
- * Spanish
- * Italian
+ * English - pydict en Python
+ * Spanish - pydict es Piton
+ * Italian - pydict it Pitone
 
 
 # Special Thanks to:

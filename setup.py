@@ -11,7 +11,7 @@ config = {
 , 'version': '0.2'
 , 'install_requires':['BeautifulSoup4','nose']
 , 'packages': ['dictionary']
-, 'scripts': ['bin/dictpy']
+, 'scripts': ['bin/pydict']
 , 'name': 'Dictionary-py'
 }
 

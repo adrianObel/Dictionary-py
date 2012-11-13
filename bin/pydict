@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+from sys import argv
+from dictionary import dictionary
+
+
+argv_count = len(argv)
+
+if argv_count == 2:
+  dictionary.search_one(argv[1])
+elif argv_count == 3:
+  dictionary.search_two(argv[1], argv[2])
+else:
+  print 'Invalid search format. pydict [language code] [word]'
